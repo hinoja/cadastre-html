@@ -296,8 +296,8 @@ a.text-warning:focus, a.text-warning:hover {
 .button-1 {
     color: #fff;
     border-bottom: 5px solid #D8a400;
-	background-image: -webkit-linear-gradient(30deg, #3E007C 50%, transparent 50%);
-	background-image: linear-gradient(30deg, #3E007C 50%, transparent 50%);
+	background-image: -webkit-linear-gradient(30deg, rgb(0,150,250) 50%, transparent 50%);
+	background-image: linear-gradient(30deg, rgb(0,150,250) 50%, transparent 50%);
     background-size: 900px;
     background-repeat: no-repeat;
     background-position: 0%;
@@ -1466,7 +1466,7 @@ fieldset[disabled] .form-control {
 }
 .login-wrapper .loginbox .login-left {
     align-items: center;
-    background: #3E007C;
+    background: rgb(0,150,250);
     border-radius: 6px 0 0 6px;
     flex-direction: column;
     justify-content: center;
